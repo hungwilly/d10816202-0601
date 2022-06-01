@@ -1,0 +1,36 @@
+h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h2{
+    font-size: 2rem;
+    font-weight: normal;
+}
+h3{
+    font-size: 1.875rem;
+    font-weight: normal;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+h6{
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+p.span{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0px;    
+}
+small{
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+#app{
+    font-family: "taipei sans tc";
+}

@@ -1,8 +1,7 @@
 <template>
   <v-app>
 
-
-    <v-main>
+    <v-main class="background">
       <router-view/>
     </v-main>
   </v-app>
@@ -18,3 +17,6 @@ export default {
   }),
 };
 </script>
+<style scoped>
+@import "./assets/css/style.css";
+</style>
