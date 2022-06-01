@@ -6,13 +6,13 @@
         人員清單
       </h1>
     </v-col>
-    <v-col md="4" cols="12">
+    <v-col md="4" cols="12" v-for="i in 9" :key="i">
       <v-card height="150px" class="px-5 py-3 rounded-lg">
       <div class="d-flex align-center flex-grow-0">
-        <h3 class="primary--text flex-grow-0"><strong>王小明</strong></h3>
-        <h4 class="gray--text d-flex ml-auto">男</h4>
+        <h3 class="primary--text flex-grow-0"><strong>{{user.NAME}}</strong></h3>
+        <h4 class="gray--text d-flex ml-auto">{{user.GENDER}}</h4>
       </div>
-
+      <div></div>
       <div>
           <span class="gray--text">
             2021062011493428
@@ -37,8 +37,22 @@
 export default {
   data(){
     return{
-
+      UID:"",
+      SID:"",
+      CID:"",
+      NAME:"王小明",
+      PHONE:"",
+      GENDER:"男",
+      EMAIL:"",
+      ZIP:300,
+      ADDRESS:"",
+      createTime:"",
+      updateTime:"",
+      isDelete:null
     }
   }
 }
+
 </script>
+
+
