@@ -1,19 +1,16 @@
 <template>
-  <div class="secondary--text">
-    
-  <h1>h1 台北</h1>
-<h2>h2</h2>
-<h3>h3</h3>
-<h4>h4</h4>
-<h5>h5</h5>
-<h6>h6</h6>
-
-  </div>
+<v-container>
+  <v-row>
+    <v-col cols="12">
+      <h1 class="text-center py-10">
+        人員清單
+      </h1>
+    </v-col>
+  </v-row>
+</v-container>
 </template>
-
+  
 <script>
-
-
 export default {
   data(){
     return{
