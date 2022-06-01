@@ -7,10 +7,10 @@
       </h1>
     </v-col>
     <v-col md="4" cols="12">
-      <v-card height="150px">
-      <div>
-        <h3 class="primary--text"><strong>王小明</strong></h3>
-        <h4 class="gray--text">男</h4>
+      <v-card height="150px" class="px-5 py-3 rounded-lg">
+      <div class="d-flex align-center flex-grow-0">
+        <h3 class="primary--text flex-grow-0"><strong>王小明</strong></h3>
+        <h4 class="gray--text d-flex ml-auto">男</h4>
       </div>
 
       <div>
